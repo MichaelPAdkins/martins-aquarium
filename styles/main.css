@@ -1,8 +1,5 @@
 body {
-    background-color: #f57f70f76;
-
-}
-
+    background-color: #39464c;
 
 .fish__image {
     max-width: auto; 
@@ -12,6 +9,7 @@ body {
 }
 
 .fish {
+    
     border: 1px solid black;
     margin: 1em;
     padding: 0.5em;
@@ -25,12 +23,18 @@ article {
 }
 
 section {
+    
+    background-color: #4C393C;
     flex: 70%;
     margin-left;
 }
 
 aside {
+
+    background-color: #4c4839;
     flex:30%;
     margin-right;
     
+}
+
 }
