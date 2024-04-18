@@ -32,7 +32,7 @@ const database = {
             id: 3,
             fishImage: "photo here",
             fishSpecies: "Muffinhead Seabass",
-            fishLength: 15",
+            fishLength: "15",
             martinNameForFish: "Muffy",
             harvestLocation:"Coast of Chile",
             diet: "Microplastics",
