@@ -60,9 +60,70 @@ const database = {
             diet: " Bananas ",
 
         },
+    ],
+    tips: [
+        {
+            id: 1,
+            tip: "Clean your tanks daily - maintenance will keep everything stable",
+        },
+
+        {
+            id: 2,
+            tip: "Feed your fish trusted food -- introducing disease via poorly managed feeder media is common.",
+        },
+
+        {
+            id: 3,
+            tip: "Reach out to your fellow tank managers -- people have so much to give and are great resources"
+            
+        },
+
+        
+    ],
+
+    locations: [
+        {
+
+            id: 1,
+            location:" Ohio River ",
+
+        },
+
+        {
+
+            id: 2,
+            location:" Everglades ",
+        } ,     
+        
+        {
+
+            id: 3,
+            location:" Coast of Chile ",
+        },
+
+        {
+
+            id: 4,
+            location:" Atlantic Coast",
+        },
+
+        {
+
+            id: 5,
+            location:" Panama Canal ",
+        }
+
+
+
     ]
+
 }
+
 
 export const getFish = () => {
     return database.fish.map(fish => ({...fish}))
+}
+
+export const getTips = () => {
+    return database.tips.map(tips => ({...tips}))
 }

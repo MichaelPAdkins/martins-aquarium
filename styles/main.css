@@ -1,3 +1,9 @@
+body {
+    background-color: #f57f70f76;
+
+}
+
+
 .fish__image {
     max-width: auto; 
     max-height: 200px;
