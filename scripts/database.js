@@ -33,7 +33,7 @@ const database = {
             image: "https://steemitimages.com/DQmTxLvC8wx8RhgyxHsuEvDjVHQWHrNg7FxeySFs5fKx2KU/unnamed%20(1).jpg",
             name: " Muffy ",
             species: " Muffinhead Seabass ",
-            length: 15,
+            length: 25,
             location:" Coast of Chile ",
             diet: " Microplastics ",
             
